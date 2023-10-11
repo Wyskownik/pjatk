@@ -21,12 +21,12 @@ int main() {
 
     cin >> liczba3;
 
-    if(liczba1 > liczba2 && liczba3) {
+    if(liczba1 > liczba2 && liczba1 > liczba3) {
 
         cout << "Liczba pierwsza jest najwieksza liczbą." << endl;
     
     }
-    else if(liczba2 > liczba1 && liczba3) {
+    else if(liczba2 > liczba1 && liczba2 > liczba3) {
 
         cout << "Liczba druga jest największą liczbą." << endl;
 
